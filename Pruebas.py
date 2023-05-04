@@ -2,10 +2,10 @@ from main import *
 
 def test_Hello():
     saludo = Hello()
-    assert saludo == "Hello fastapi"
+    assert saludo == "HELLO FASTAPI"
     
 def test_Isprime():
-    numero=Primo(6)
+    numero=Isprime(6)
     assert numero == False
     
 def test_Fibonacci():
